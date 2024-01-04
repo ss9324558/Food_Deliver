@@ -126,7 +126,7 @@ main{
 .dpic{
     height: 80vh;
     width: 50vw;
-    background-image: url(/Image/Frame.png);
+    background-image: url(Image/Frame.png);
     background-repeat: no-repeat;
     background-size:contain;
 }
