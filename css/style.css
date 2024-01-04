@@ -82,12 +82,13 @@ span button{
 /* Main */
 main{
     height: 400px;
+    padding-top: 20px;
 }
 .parent{
     height: 150px;
     width: 95vw;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     margin: 10px 50px;
 }
@@ -98,7 +99,7 @@ main{
     width: 35vw;
 }
 .b{
-    width: 70vw;
+    /* width: 70vw; */
     margin-left: 50px;
 }
 .circle{
@@ -123,12 +124,12 @@ main{
     right: -130px;
     border-radius: 50%;
 }
-.dpic{
+.dpic img{
     height: 80vh;
-    width: 50vw;
-    background-image: url(Image/Frame.png);
-    background-repeat: no-repeat;
-    background-size:contain;
+    /* width: 50vw; */
+    /* background-image: url(image/frame.PNG); */
+    /* background-repeat: no-repeat; */
+    /* background-size:contain; */
 }
 .btn1{
     margin-top: 20px;
@@ -242,7 +243,7 @@ main{
 .card1 .subdiv{
     margin-top: 10px;
 }
-.subdiv h4{
+.subdiv h4,.subdiv1 h4{
     color: #69697B;
 }
 .child2{
@@ -354,3 +355,138 @@ footer{
     padding-bottom: 20px;
     padding-left: 25px;
 }
+
+@media screen and (max-width: 1024px){
+    li {
+        margin-left: 10px;
+    }
+    .box{
+        width: 95%;
+    }
+    .box1{
+        padding-left: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .circle1,.circle2,.circle3{
+        display: none;
+    }
+    .box2{
+        overflow: visible;
+    }
+  }
+  @media screen and (max-width: 1680px){
+    .box{
+        margin-top: 150px;
+        margin: 200px;
+    }
+    .dpic img{
+        height: 60vh;
+        margin-top: 150px;
+    }
+  }
+  @media screen and (max-width: 1440px){
+    .about-us{
+        padding: 100px 100px 0px 100px;
+    }
+    .d2{
+        margin-top: 100px;
+        height: 150px;
+    }
+    .testinomial{
+        padding-top: 50px;
+    }
+    .box{
+        margin-top: 150px;
+        padding: 120px;
+    }
+    .box2{
+        height: 395px;
+    }
+  }
+  @media screen and (max-width: 1400px){
+    .a .circle{
+        margin-top: 70px;
+    }
+  }
+  @media screen and (max-width:1286px){
+    .dpic img{
+        width: 250px;
+        height: 250px;
+    }
+  }
+  @media screen and (max-width:1026px){
+    nav{
+        height: 200px;
+        display: block;
+    }
+    nav .logo img{
+        padding-left: 50%;
+    }
+    nav li{
+        padding: 10px;
+    }
+    nav .search-btn{
+        padding-left: 40%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .a .circle{
+        padding-top: 50px;
+    }
+    main{
+        height: 500px;
+    }
+    .main{
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .main .about-us .d1{
+        height: 17vh;
+    }
+    .main .about-us h1{
+        font-size: larger;
+    }
+    .main .about-us svg{
+        height: 120px;
+    }
+    .main .about-us-more .d2 p{
+        font-size:medium;
+    }
+    .main .about-us-more .d2 h2{
+        padding: 30px;
+        font-size:large;
+    }
+  }
+
+  @media screen and (max-width:940px){
+    .main .about-us h1{
+        font-size: large;
+    }
+    .main .about-us-more .d2 p{
+        font-size:small;
+    }
+    .main .about-us-more .d2 h2{
+        padding: 30px;
+        font-size:small;
+    }
+    .special .about-us .d1 svg{
+        height: 100px;   
+    }
+    .special .about-us .d1{
+        height: 11vh;
+    }
+    .special .about-us-more .d2 svg{
+        height: 12px;
+    }
+    .special .about-us-more .d2 h3{
+        font-size: small;
+    }
+    .special .about-us-more .d2 h4{
+        font-size: small;
+    }
+    .special .about-us-more .d2 button{
+        padding: 5px;
+    }
+    .button
+  }
